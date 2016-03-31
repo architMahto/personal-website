@@ -1,0 +1,25 @@
+{
+  "name": "personal-website-3",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/architMahto/personal-website-3.git"
+  },
+  "author": "Archit Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/architMahto/personal-website-3/issues"
+  },
+  "homepage": "https://github.com/architMahto/personal-website-3#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}
