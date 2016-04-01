@@ -1,0 +1,18 @@
+{
+  "name": "personal-website",
+  "homepage": "https://github.com/architMahto/personal-website-3",
+  "authors": [
+    "architMahto <architmahto@cmail.carleton.ca>"
+  ],
+  "description": "My Personal Website",
+  "main": "server.js",
+  "moduleType": [],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
