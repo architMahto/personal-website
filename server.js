@@ -4,8 +4,8 @@ var express    = require('express'),
     logger     = require('morgan'),
     cors       = require('cors'),
     path       = require('path'),
-    routes     = require('./routes')
-    port       = process.env.PORT || 3000;
+    routes     = require('./routes'),
+    port       = process.env.PORT || 8080;
 
 var app = express();
 
