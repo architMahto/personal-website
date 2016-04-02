@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('personalApp', ['homeControllers', 'aboutControllers', 'ui.router'])
+  angular.module('personalApp', ['homeControllers', 'aboutControllers', 'projectsControllers', 'technicalSkillsControllers', 'softSkillsControllers', 'historyControllers', 'educationControllers', 'achievementsControllers', 'ui.router'])
     .config(routerConfig);
 
   routerConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
@@ -20,27 +20,33 @@
       })
       .state('projects',{
         url: '/projects',
-        templateUrl: 'views/projects.html'
+        templateUrl: 'views/projects.html',
+        controller: 'projectsController as projectsCtrl'
       })
       .state('technical-skills',{
         url: '/technical-skills',
-        templateUrl: 'views/technical-skills.html'
+        templateUrl: 'views/technical-skills.html',
+        controller: 'technicalSkillsController as technicalSkillsCtrl'
       })
       .state('soft-skills',{
         url: '/soft-skills',
-        templateUrl: 'views/soft-skills.html'
+        templateUrl: 'views/soft-skills.html',
+        controller: 'softSkillsController as softSkillsCtrl'
       })
       .state('history',{
         url: '/history',
-        templateUrl: 'views/history.html'
+        templateUrl: 'views/history.html',
+        controller: 'historyController as historyCtrl'
       })
       .state('education',{
         url: '/education',
-        templateUrl: 'views/education.html'
+        templateUrl: 'views/education.html',
+        controller: 'educationController as educationCtrl'
       })
       .state('achievements',{
         url: '/achievements',
-        templateUrl: 'views/achievements.html'
+        templateUrl: 'views/achievements.html',
+        controller: 'achievementsController as achievementsCtrl'
       })
       $urlRouterProvider.otherwise('/');
   }

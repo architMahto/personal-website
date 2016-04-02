@@ -2,5 +2,7 @@
 <hr />
 <div class="info" ng-repeat="section in aboutCtrl.content">
   <h3>{{section.header}}</h3>
-  <p>{{section.paragraphs}}</p>
+  <div class="paragraph" ng-repeat="paragraph in section.paragraphs">
+    <p>{{paragraph}}</p>
+  </div>
 </div>
