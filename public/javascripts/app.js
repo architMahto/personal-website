@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('personalApp', ['myControllers', 'ui.router'])
+  angular.module('personalApp', ['homeControllers', 'aboutControllers', 'ui.router'])
     .config(routerConfig);
 
   routerConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
@@ -10,7 +10,8 @@
     $stateProvider
       .state('home',{
         url: '/',
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/home.html',
+        controller: 'homeController as homeCtrl'
       })
       .state('about',{
         url: '/about',

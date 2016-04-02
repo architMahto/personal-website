@@ -1,7 +1,7 @@
 ;(function () {
   'use strict';
 
-  angular.module('myControllers', [])
+  angular.module('aboutControllers', [])
     .controller('aboutController', aboutController);
 
   function aboutController() {
