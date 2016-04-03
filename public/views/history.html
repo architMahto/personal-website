@@ -1,9 +1,11 @@
-<h3>Employment History</h3>
+<h2 class="text-center">History</h2>
 <hr />
+<h3>Employment History</h3>
+<br />
 <div class="well well-lg" ng-repeat="position in historyCtrl.employmentHistory">
-  <h4>{{position.title}}</h4>
-  <p>{{position.organization}}</p>
-  <p>{{position.timeframe}}</p>
+  <h4 style="margin-bottom: 0;">{{position.title}}</h4>
+  <p style="margin-bottom: 0;">{{position.organization}}</p>
+  <p><em>{{position.timeframe}}</em></p>
   <br />
   <ul>
     <li ng-repeat="point in position.description">
@@ -17,11 +19,11 @@
 </div>
 
 <h3>Volunteering History</h3>
-<hr />
+<br />
 <div class="well well-lg" ng-repeat="position in historyCtrl.voluteeringHistory">
-  <h4>{{position.title}}</h4>
-  <p>{{position.organization}}</p>
-  <p>{{position.timeframe}}</p>
+  <h4 style="margin-bottom: 0;">{{position.title}}</h4>
+  <p style="margin-bottom: 0;">{{position.organization}}</p>
+  <p><em>{{position.timeframe}}</em></p>
   <br />
   <ul>
     <li ng-repeat="point in position.description">
