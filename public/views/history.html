@@ -1,5 +1,31 @@
-<p>Caramels biscuit candy. Cotton candy liquorice soufflé jelly beans. Macaroon gingerbread jelly-o jelly beans lollipop gummi bears muffin jelly carrot cake. Croissant topping chupa chups oat cake cookie pastry soufflé pudding ice cream. Sesame snaps candy canes tiramisu lollipop gingerbread carrot cake gummies oat cake. Macaroon fruitcake lemon drops. Icing caramels gingerbread gummies chocolate chocolate bar tootsie roll danish apple pie. Candy cotton candy sesame snaps pastry gummies marshmallow. Jelly marshmallow marzipan cake. Cake liquorice sugar plum. Chocolate marshmallow dessert. Biscuit biscuit bear claw liquorice. Pastry apple pie danish chocolate bar jelly gummies. Brownie macaroon sweet brownie gingerbread soufflé.</p>
+<h3>Employment History</h3>
+<hr />
+<div class="well well-lg" ng-repeat="position in historyCtrl.employmentHistory">
+  <h4>{{position.title}}</h4>
+  <p>{{position.organization}}</p>
+  <p>{{position.timeframe}}</p>
+  <br />
+  <ul>
+    <li ng-repeat="point in position.description">
+      {{point}}
+    </li>
+  </ul>
+</div>
 
-<p>Powder icing marzipan. Chocolate bar chupa chups jelly beans pie muffin liquorice. Sesame snaps croissant donut lollipop marshmallow jelly tart apple pie biscuit. Tart gummies cotton candy candy canes chocolate bar ice cream. Ice cream biscuit marshmallow powder brownie cupcake topping sweet roll. Oat cake topping jelly beans tart cake gummi bears chocolate cake. Dragée liquorice candy canes jelly-o fruitcake. Dragée carrot cake gummies. Halvah cheesecake marshmallow macaroon candy. Cake gingerbread lollipop jelly-o sweet danish sweet roll. Donut carrot cake tart chocolate cake tootsie roll brownie danish. Pie biscuit bear claw tart oat cake. Cake jelly-o candy sweet roll tootsie roll.</p>
+<div class="row">
+  <br />
+</div>
 
-<p>Marshmallow pie muffin apple pie wafer caramels. Lemon drops cupcake muffin brownie jelly chupa chups icing jujubes sweet roll. Pie pastry sugar plum cupcake powder lollipop dessert jujubes. Halvah gummies chocolate candy sugar plum caramels. Jelly-o jelly beans cookie oat cake carrot cake candy canes caramels icing. Chocolate bar tart chupa chups danish lemon drops bonbon caramels. Candy danish donut jelly beans chocolate. Marzipan fruitcake tootsie roll. Cupcake tart liquorice. Caramels gingerbread chocolate. Fruitcake brownie tart tart halvah tiramisu. Gummi bears gummi bears lollipop sweet wafer lemon drops oat cake.</p>
+<h3>Volunteering History</h3>
+<hr />
+<div class="well well-lg" ng-repeat="position in historyCtrl.voluteeringHistory">
+  <h4>{{position.title}}</h4>
+  <p>{{position.organization}}</p>
+  <p>{{position.timeframe}}</p>
+  <br />
+  <ul>
+    <li ng-repeat="point in position.description">
+      {{point}}
+    </li>
+  </ul>
+</div>
