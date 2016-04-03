@@ -1,5 +1,14 @@
-<p>Tiramisu sesame snaps sweet roll marshmallow croissant halvah. Pastry oat cake dragée muffin cake chocolate bar caramels. Muffin powder marshmallow marshmallow biscuit marzipan cookie lemon drops liquorice. Jelly pudding cookie pudding. Pudding ice cream dessert chupa chups tiramisu pie. Tart jelly-o oat cake. Cake sweet jelly beans. Apple pie cheesecake sugar plum biscuit marzipan. Jujubes caramels gummies gummi bears danish. Tootsie roll cake tiramisu sesame snaps cookie sweet roll chocolate cake. Chocolate bar jelly beans gingerbread apple pie tiramisu muffin. Carrot cake oat cake cheesecake chocolate bar liquorice jujubes macaroon ice cream pudding.</p>
-
-<p>Tiramisu gingerbread sweet. Chocolate cake halvah sweet wafer topping fruitcake cheesecake tiramisu. Tiramisu dragée jelly beans cookie carrot cake liquorice wafer icing fruitcake. Cheesecake halvah topping oat cake halvah topping. Caramels caramels tootsie roll fruitcake marshmallow lollipop candy canes sesame snaps. Macaroon cupcake carrot cake tiramisu carrot cake pie tiramisu. Brownie gingerbread oat cake bear claw chocolate bar marshmallow biscuit. Croissant cake topping danish toffee sugar plum. Tart pudding dragée marshmallow. Apple pie gummi bears tiramisu soufflé cupcake. Jelly beans liquorice chocolate bar jujubes lemon drops. Ice cream apple pie pastry biscuit wafer jelly. Oat cake marshmallow fruitcake topping oat cake gingerbread.</p>
-
-<p>Muffin cake cake cupcake cheesecake cheesecake icing gummi bears jelly beans. Sweet roll marshmallow sweet roll. Toffee brownie chocolate cake tart jelly dessert. Cake lemon drops cotton candy. Cotton candy chocolate cake cheesecake. Pastry ice cream cake bonbon sugar plum soufflé ice cream sweet jelly-o. Cheesecake brownie biscuit chocolate cake ice cream gummies fruitcake candy canes. Macaroon fruitcake dessert bonbon jelly-o cookie pie sweet roll sugar plum. Halvah caramels chupa chups cheesecake cupcake. Wafer pastry lollipop wafer jelly tart oat cake. Ice cream jelly-o marshmallow icing toffee marshmallow pudding ice cream pie. Dessert gingerbread dessert bear claw. Bonbon icing sugar plum.</p>
+<h2 class="text-center">Achievements</h2>
+<hr />
+<div class="well well-lg" ng-repeat="extracurricular in achievementsCtrl.extracurriculars">
+  <h4 style="margin-bottom: 0;">{{extracurricular.title}}</h4>
+  <p style="margin-bottom: 0;">{{extracurricular.organization}}</p>
+  <p style="margin-bottom: 0;">{{extracurricular.location}}</p>
+  <p><em>{{extracurricular.date}}</em></p>
+  <br />
+  <ul>
+    <li ng-repeat="point in extracurricular.description">
+      {{point}}
+    </li>
+  </ul>
+</div>
