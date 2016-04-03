@@ -1,8 +1,9 @@
-<h2 class="text-center">Projects</h2>
-<hr />
 <div class="row">
   <br />
 </div>
+
+<h2 class="text-center">Projects</h2>
+<hr />
 
 <div class="well well-lg" ng-repeat="project in projectsCtrl.projects">
   <h3>{{project.title}}</h3>
@@ -19,4 +20,8 @@
   <div class="well-paragraph" ng-repeat="paragraph in project.description">
     <p>{{paragraph}}</p>
   </div>
+</div>
+
+<div class="row">
+  <br />
 </div>
