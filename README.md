@@ -11,6 +11,7 @@ Archit Mahto
 * Node.js
 * AngularJS
 * Bootstrap
+* Bower (for client-side packages)
 
 ## How to run it locally
 
