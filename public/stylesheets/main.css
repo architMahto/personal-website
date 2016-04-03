@@ -94,12 +94,22 @@ code {
 .tech li, .soft-skill li {
   display: inline-block;
   margin: 10px 15px 0 0;
-  background-color: #2c3e50;
+  background-color: #e74c3c;
   color: #ecf0f1;
   padding: 3px 10px;
   border: 2px solid #2c3e50;
   border-radius: 5px;
   font-size: 13px;
+}
+
+h3 {
+  color: #f1c40f;
+}
+
+/* Navbar Styling */
+.navbar-inverse .navbar-nav>li>a {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 /* Home Page Stylings*/

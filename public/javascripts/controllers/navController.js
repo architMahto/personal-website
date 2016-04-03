@@ -7,6 +7,8 @@
   function navController() {
     var navCtrl = this;
 
+    navCtrl.year = new Date().getFullYear();
+
     navCtrl.tabs = [
       {
         name: "Home",

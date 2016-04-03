@@ -7,7 +7,9 @@
 <div class="soft-skills" ng-repeat="skill in softSkillsCtrl.skills">
   <h3>{{skill.category}}</h3>
   <ul class="soft-skill">
-    <li ng-repeat="type in skill.types">{{type}}</li>
+    <li ng-repeat="type in skill.types">
+      <strong>{{type}}</strong>
+    </li>
   </ul>
 </div>
 
