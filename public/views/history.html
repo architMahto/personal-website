@@ -12,9 +12,7 @@
   <p><em>{{position.timeframe}}</em></p>
   <br />
   <ul>
-    <li ng-repeat="point in position.description">
-      {{point}}
-    </li>
+    <li ng-repeat="point in position.description" ng-bind-html="point"></li>
   </ul>
 </div>
 
@@ -30,9 +28,7 @@
   <p><em>{{position.timeframe}}</em></p>
   <br />
   <ul>
-    <li ng-repeat="point in position.description">
-      {{point}}
-    </li>
+    <li ng-repeat="point in position.description" ng-bind-html="point"></li>
   </ul>
 </div>
 

@@ -19,7 +19,8 @@
                           {
                             header: "What have I been up to in code and tech?",
                             paragraphs: [
-                              "Since I switched to Computer Science, I have been involved in various projects for school and online courses. Through those projects and online courses, I have learnt and become proficient in many languages such as C, C++, Java, Javascript, and Python.", "However, languages are not everything in programming. I’m currently learning software quality assurance. My specialities are object-oriented programming, web development and computer networking.",
+                              "Since I switched to Computer Science, I have been involved in various projects for school and online courses. Through those projects and online courses, I have learnt and become proficient in many languages such as C, C++, Java, Javascript, and Python.",
+                              "However, languages are not everything in programming. I’m currently learning software quality assurance. My specialities are object-oriented programming, web development and computer networking.",
                               "My personal interest in web development has resulted in work on so many projects and learning as many frameworks along the way. As a popular Pokemon trainer said, 'Gotta catch ‘em all' for Pokemon; my philosophy towards web frameworks is, 'Gotta learn ‘em all'."]
                           },
                           {

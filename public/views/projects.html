@@ -18,7 +18,7 @@
   </p>
   <br />
   <div class="well-paragraph" ng-repeat="paragraph in project.description">
-    <p>{{paragraph}}</p>
+    <p ng-bind-html="paragraph"></p>
   </div>
 </div>
 

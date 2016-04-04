@@ -28,7 +28,7 @@
         ]
       },
       {
-        title        : "Pietalk",
+        title        : "pietalk",
         link         : "https://github.com/architMahto/RU-Midterm-Project_draw-simulator.git",
         techs        : ['Python', 'TKinter'],
         description  : [
