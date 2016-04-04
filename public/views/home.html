@@ -8,10 +8,13 @@
 <br />
 
 <h5 class="text-center">Feel free to reach me via any of the options below</h5>
-<ul class="social-media text-center" >
+<ul class="social-media" >
   <li ng-repeat="site in homeCtrl.socialMedisSites">
     <a href={{site.link}} target="_blank">
-      <i class={{site.class}}></i>
+      <span class="fa-stack fa-2x">
+        <i class={{site.stackClass}} ng-style="{'color' : site.stackColor}"></i>
+        <i class={{site.iconClass}} ng-style="{'color' : site.iconColor}"></i>
+      </span>
     </a>
   </li>
 </ul>

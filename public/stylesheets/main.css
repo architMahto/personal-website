@@ -115,40 +115,13 @@ h3 {
 /* Home Page Stylings*/
 .social-media {
   list-style: none;
+  text-align: center;
+  padding: 0;
 }
 
 .social-media li {
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
   text-shadow: none;
-}
-
-i.fa.fa-twitter-square, i.fa.fa-linkedin-square, i.fa.fa-github-square, i.fa.fa-stack-overflow, i.fa.fa-envelope {
-  font-size: 50px;
-}
-
-i.fa.fa-twitter-square {
-  color: #55ACEE;
-}
-
-i.fa.fa-linkedin-square {
-  color: #0077B5;
-}
-
-i.fa.fa-github-square {
-  color: #FAFAFA;
-}
-
-i.fa.fa-stack-overflow{
-  color: #F48024;
-}
-
-i.fa.fa-envelope {
-  color: #FFFFFF;
-  text-shadow: -2px 0 #E93E30, 0 2px #E93E30, 2px 0 #E93E30, 0 -2px #E93E30;
-}
-
-i.fa.fa-twitter-square:hover, i.fa.fa-linkedin-square:hover, i.fa.fa-github-square:hover, i.fa.fa-stack-overflow:hover, i.fa.fa-envelope:hover {
-  text-shadow: 0 0 20px azure;
 }
