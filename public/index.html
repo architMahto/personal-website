@@ -56,24 +56,18 @@
     </header>
 
     <!-- Begin page content -->
-    <div class="container">
-      <div class="row">
-        <br />
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-           <div class="row">
-             <div class="col-md-12" style="background: rgba(44,62,80,0.9); border-radius: 10px;">
-               <div ui-view></div>
+    <div class="container-fluid">
+        <div class="row" style="height: 100%">
+           <div class="col-md-12" style="background: rgba(44,62,80,0.8); border-radius: 10px;">
+             <div class="row">
+               <br />
              </div>
+             <div ui-view></div>
+               <div class="row">
+                 <br />
+               </div>
            </div>
          </div>
-      </div>
-
-      <div class="row">
-        <br />
-      </div>
     </div>
 
     <footer class="footer">
