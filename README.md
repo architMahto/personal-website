@@ -1,6 +1,6 @@
 # personal-website
 
-This is the code for my [personal website](https://www.architmahto.com). It contains info on job history, projects, and other info about me.
+This is the code for my [personal website](http://www.architmahto.com). It contains info on job history, projects, and other info about me.
 
 ## Authorship
 
