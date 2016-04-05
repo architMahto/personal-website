@@ -6,7 +6,15 @@
 <hr />
 
 <div class="well well-lg" ng-repeat="project in projectsCtrl.projects">
-  <h3>{{project.title}}</h3>
+  <h3>
+    {{project.title}}
+    <small ng-show="project.showLink">
+      <a href={{project.link}} target="_blank">
+        <i class="fa fa-link"></i>
+      </a>
+      GitHub
+    </small>
+  </h3>
   <br />
   <p>
     Tech Used:

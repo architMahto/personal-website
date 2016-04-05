@@ -14,9 +14,9 @@
         location     : "Ottawa, Ontario, Canada",
         date         : "May 2013",
         description  : [
-          "As a Competent Communicator, prepared and delivered speech projects of great difficulty in areas such as interpersonal communication and humor enabling cordial and friendly interactions with future co-workers.",
-          "In speech projects involving interpersonal communication, performed skits with another member dealing with interpersonal skills such as small talk, negotiation, verbal criticism, mentoring, and assertion.",
-          "Before meetings, mentored fellow members who were attempting to attain the Competent Communicator Certificate which helped them achieve their goals in the process."
+          "<span>Prepared and delivered speech projects</span> of great difficulty in areas such as <span>interpersonal communication</span> and <span>humor</span>.",
+          "<span>Prepared and performed skits with other members</span> for interpersonal communication projects.",
+          "<span>Mentored fellow members</span> who were attempting to attain the Competent Communicator Certificate before meetings."
         ]
       },
       {
@@ -25,8 +25,8 @@
         location     : "Ottawa, Ontario, Canada",
         date         : "April 2012",
         description  : [
-          "As a member of Carleton Toastmasters, prepared and delivered speeches to improve public speaking skills.",
-          "Joining a Toastmasters club for the first time, networked with various members."
+          "As a member of Carleton Toastmasters, <span>prepared and delivered speeches</span> to improve public speaking skills.",
+          "Joining a Toastmasters club for the first time, <span>networked with various members</span>."
         ]
       }
     ]

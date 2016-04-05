@@ -10,7 +10,7 @@
   <p style="margin-bottom: 0;">{{school.location}}</p>
   <p><em>{{school.timeframe}}</em></p>
   <br />
-  <p>{{school.description}}</p>
+  <p ng-bind-html="school.description"></p>
 </div>
 
 <div class="row">

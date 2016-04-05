@@ -11,8 +11,7 @@
   <p><em>{{extracurricular.date}}</em></p>
   <br />
   <ul>
-    <li ng-repeat="point in extracurricular.description">
-      {{point}}
+    <li ng-repeat="point in extracurricular.description" ng-bind-html="point">
     </li>
   </ul>
 </div>

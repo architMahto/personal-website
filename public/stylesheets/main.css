@@ -81,8 +81,6 @@ code {
 
 /* General Stylings */
 .well {
-  /*color: #333333;*/
-  /*background: linear-gradient(to bottom, #ecf0f1 0%,#95a5a6 100%);*/
   background-color: #272727;
 }
 
@@ -106,6 +104,11 @@ h3 {
   color: #f1c40f;
 }
 
+span {
+  font-weight: bold;
+  color: springgreen;
+}
+
 /* Navbar Styling */
 .navbar-inverse .navbar-nav>li>a {
   margin-left: 25px;
@@ -124,4 +127,14 @@ h3 {
   margin-right: 5px;
   margin-left: 5px;
   text-shadow: none;
+}
+
+/* Projects Page Styling */
+small a {
+  color: #777;
+}
+
+small a:hover {
+  color: #ecf0f1;
+  text-decoration: none;
 }
