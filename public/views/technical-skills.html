@@ -7,7 +7,7 @@
 <div class="tech-skills" ng-repeat="skill in technicalSkillsCtrl.skills">
   <h3>{{skill.category}}</h3>
   <ul class="tech">
-    <li ng-repeat="tech in skill.techs">
+    <li class="hvr-rectangle-out hvr-grow" ng-repeat="tech in skill.techs">
       <strong>{{tech}}</strong>
     </li>
   </ul>

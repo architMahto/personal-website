@@ -9,7 +9,7 @@
 
 <h5 class="text-center">Feel free to reach me via any of the options below</h5>
 <ul class="social-media" >
-  <li ng-repeat="site in homeCtrl.socialMedisSites">
+  <li class="hvr-grow hvr-glow" ng-repeat="site in homeCtrl.socialMedisSites">
     <a href={{site.link}} target="_blank">
       <span class="fa-stack fa-2x">
         <i class={{site.stackClass}} ng-style="{'color' : site.stackColor}"></i>
@@ -24,10 +24,10 @@
 </div>
 
 <div class="row text-center">
-  <img src="/images/archit.png" />
+  <img src="/images/archit.png" class="animated fadeIn"/>
 </div>
 
-<blockquote>
+<blockquote class="animated slideInLeft">
   <h4>"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it."
   </h4>
   <footer>

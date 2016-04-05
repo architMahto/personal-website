@@ -7,6 +7,10 @@
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Font Awesome Glyphicons  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Hover CSS  -->
+    <link href="/bower_components/hover/css/hover.css" rel="stylesheet" />
+    <!-- Animate CSS  -->
+    <link href="/bower_components/animate.css" rel="stylesheet" />
 
     <!-- Main CSS  -->
     <link href="/stylesheets/main.css" rel="stylesheet" />
@@ -40,7 +44,7 @@
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li ng-repeat="tab in navCtrl.tabs">
+              <li class="hvr-grow hvr-underline-from-center" ng-repeat="tab in navCtrl.tabs">
                 <a ui-sref={{tab.stateRef}}>
                   <i class={{tab.class}}></i> {{tab.name}}
                 </a>
@@ -74,7 +78,7 @@
 
     <footer class="footer">
       <div class="container">
-        <h5 class="text-center text-muted">&copy Copyright {{navCtrl.year}}</h5>
+        <h5 class="text-center text-muted">Archit Mahto {{navCtrl.year}}</h5>
       </div>
     </footer>
 
