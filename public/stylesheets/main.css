@@ -10,6 +10,11 @@ body {
   background: url("/images/background-image-2.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #FAFAFA;
+  font-size: 16px;
+}
+
+.background-box {
+  background: rgba(0,0,0,0.5);
 }
 
 .footer {
@@ -81,7 +86,8 @@ code {
 
 /* General Stylings */
 .well {
-  background-color: #272727;
+  background: rgba(0,0,0,0.7);
+  /*background-color: #272727;*/
 }
 
 .tech, .soft-skill {
@@ -92,7 +98,7 @@ code {
 .tech li, .soft-skill li {
   display: inline-block;
   margin: 10px 15px 0 0;
-  background-color: #e74c3c;
+  background-color: #337AB7;
   color: #ecf0f1;
   padding: 3px 10px;
   border: 2px solid #2c3e50;
