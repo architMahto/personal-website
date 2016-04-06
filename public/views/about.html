@@ -5,7 +5,7 @@
 <h2 class="text-center">About</h2>
 <hr />
 <div class="info" ng-repeat="section in aboutCtrl.content">
-  <h3>{{section.header}}</h3>
+  <h3 class="about">{{section.header}}</h3>
   <div class="paragraph" ng-repeat="paragraph in section.paragraphs">
     <p ng-bind-html="paragraph"></p>
   </div>

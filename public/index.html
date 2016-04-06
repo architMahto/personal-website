@@ -29,6 +29,10 @@
 
 
   <body ng-controller="navController as navCtrl">
+    <div class="background-box">
+
+    </div>
+
     <!-- Fixed navbar -->
     <header class="header">
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -56,13 +60,9 @@
     </header>
 
     <!-- Begin page content (Changed Structure) -->
-    <div class="container-fluid background-box">
-      <div class="row">
-        <br />
-      </div>
-      <div ui-view></div>
-      <div class="row">
-        <br />
+    <div class="container">
+      <div class="well well-lg">
+        <div ui-view></div>
       </div>
     </div>
 
