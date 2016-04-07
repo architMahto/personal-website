@@ -90,7 +90,7 @@ a {
   color: #dddddd;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #333333;
 }
 
@@ -138,6 +138,10 @@ span {
 
 .navbar-brand h1 {
   margin: 0;
+}
+
+.nav-tabs.nav-justified>li>a {
+  border: none;
 }
 
 /* Home Page Stylings*/
