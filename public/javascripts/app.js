@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('personalApp', ['navControllers', 'homeControllers', 'aboutControllers', 'projectsControllers', 'technicalSkillsControllers', 'softSkillsControllers', 'historyControllers', 'educationControllers', 'achievementsControllers', 'ngSanitize', 'ui.router'])
+  angular.module('personalApp', ['navControllers', 'homeControllers', 'aboutControllers', 'projectsControllers', 'technicalSkillsControllers', 'softSkillsControllers', 'historyControllers', 'educationControllers', 'achievementsControllers', 'ngAnimate', 'ngSanitize', 'ui.router'])
     .config(routerConfig);
 
   routerConfig.$inject = ['$stateProvider', '$urlRouterProvider'];

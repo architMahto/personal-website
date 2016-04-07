@@ -15,15 +15,15 @@
 <div class="row">
   <br />
 </div>
+</div>
 
 <h3>Volunteering History</h3>
 <br />
 <div class="well well-lg" ng-repeat="position in historyCtrl.voluteeringHistory">
-  <h4 style="margin-bottom: 0; color: #e74c3c;">{{position.title}}</h4>
-  <p style="margin-bottom: 0;">{{position.organization}}</p>
-  <p><em>{{position.timeframe}}</em></p>
-  <br />
-  <ul>
-    <li ng-repeat="point in position.description" ng-bind-html="point"></li>
-  </ul>
-</div>
+<h4 style="margin-bottom: 0; color: #e74c3c;">{{position.title}}</h4>
+<p style="margin-bottom: 0;">{{position.organization}}</p>
+<p><em>{{position.timeframe}}</em></p>
+<br />
+<ul>
+  <li ng-repeat="point in position.description" ng-bind-html="point"></li>
+</ul>
