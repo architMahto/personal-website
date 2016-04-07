@@ -25,17 +25,16 @@
     <script src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <!-- Angular UI Router  -->
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- Angular animate  -->
+    <script src="/bower_components/angular-animate/angular-animate.js"></script>
   </head>
 
 
   <body ng-controller="navController as navCtrl">
-    <div class="background-box">
-
-    </div>
 
     <!-- Fixed navbar -->
     <header class="header">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -61,9 +60,7 @@
 
     <!-- Begin page content (Changed Structure) -->
     <div class="container">
-      <div class="well well-lg">
-        <div ui-view></div>
-      </div>
+      <div ui-view></div>
     </div>
 
     <footer class="footer">

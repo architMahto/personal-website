@@ -1,19 +1,11 @@
-<div class="row">
-  <br />
-</div>
-
 <h2 class="text-center">Soft Skills</h2>
 <hr />
-<div class="soft-skills" ng-repeat="skill in softSkillsCtrl.skills">
+<div class="well well-lg soft-skills" ng-repeat="skill in softSkillsCtrl.skills">
   <h3>{{skill.category}}</h3>
   <ul class="soft-skill">
     <li class="hvr-rectangle-out hvr-grow" ng-repeat="type in skill.types">
       <strong>{{type}}</strong>
     </li>
   </ul>
-  <br />
-</div>
-
-<div class="row">
   <br />
 </div>
