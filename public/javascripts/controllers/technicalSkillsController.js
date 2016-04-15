@@ -10,7 +10,7 @@
     technicalSkillsCtrl.skills = [
       {
         category  : "Programming Languages",
-        techs     : ["C", "C++", "C#", "Java", "PHP", "Prolog", "Python", "Ruby", "Scheme", "UML"]
+        techs     : ["C", "C++", "Java", "Javascript", "Prolog", "Python", "Ruby", "Scheme", "UML"]
       },
       {
         category  : "Markup Languages",
