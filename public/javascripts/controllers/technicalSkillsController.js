@@ -26,7 +26,7 @@
       },
       {
         category  : "Database Management Systems",
-        techs     : ["MySQL", "Firebase"]
+        techs     : ["Firebase", "MongoDB" , "MySQL"]
       },
       {
         category  : "Operating Systems",
@@ -42,7 +42,7 @@
       },
       {
         category  : "JavaScript Libraries",
-        techs     : ["AngularJS", "Backbone.js", "Express.js", "JQuery", "Node.js"]
+        techs     : ["AngularJS", "Backbone.js", "Express.js", "JQuery", "Node.js", "Videogular"]
       },
       {
         category  : "Web Frameworks",
