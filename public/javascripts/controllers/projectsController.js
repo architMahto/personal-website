@@ -9,6 +9,18 @@
 
     projectsCtrl.projects = [
       {
+        title        : "tellynet",
+        showLink     : true,
+        link         : "https://github.com/architMahto/tellynet.git",
+        techs        : ['NodeJS', 'Angular', 'MongoDB', 'HTML', 'CSS', 'Bootstrap', 'Bower', 'Videogular', 'AWS S3'],
+        description  : [
+          "This is an app I developed for my final project in RefactorU. It is a video streaming service akin to Netflix. However, it is exclusive to TV Shows from the U.S., U.K. and many other potential countries.",
+          "The user first creates an account and will then log in. Upon successful login, the user will select a network from any country in the world or filter network selection by the country the user wants to choose from. Once a network is selected, the user can select a show from that network and select an episode as well. After that, it's showtime.",
+          "The videos are streamed from an AWS S3 bucket (where videos are stored as well). They have been converted to a WebMHD format for faster load times. Videogular is the library used to play these videos.",
+          "This website was built to be viewed on any device responsively.",
+        ]
+      },
+      {
         title        : "personal-website",
         showLink     : true,
         link         : "https://github.com/architMahto/personal-website-3.git",
