@@ -4,11 +4,17 @@
 <div class="well well-lg" ng-repeat="project in projectsCtrl.projects">
   <h3>
     {{project.title}}
+    &nbsp;
     <small ng-show="project.showLink">
-      <a href={{project.link}} class="hvr-grow-rotate" target="_blank">
+      <a href={{project.link}} class="hvr-grow" target="_blank">
         <i class="fa fa-link"></i>
       </a>
-      GitHub
+      <p style="display: inline">GitHub</p>
+      &nbsp;&nbsp;&nbsp;
+      <a href={{project.projectLink}} ng-show="project.showProjectLink" class="hvr-grow-rotate" target="_blank">
+        <i class="fa fa-external-link"></i>
+      </a>
+      <p style="display: inline" ng-show="project.showProjectLink" >Project Page</p>
     </small>
   </h3>
   <br />
