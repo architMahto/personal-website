@@ -12,7 +12,7 @@
         speciality  : "Full Stack Web Development",
         name        : "RefactorU",
         location    : "Boulder, Colorado, USA",
-        timeframe   : "February 2016 - present (expected April 2016)",
+        timeframe   : "February 2016 - April 2016",
         description : "Studies to date include <span>front-end development</span>, <span>object-oriented programming</span>, <span>functional programming</span>, <span>web frameworks</span>, and <span>web application development</span>."
       },
       {
