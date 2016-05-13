@@ -5,7 +5,7 @@ var express    = require('express'),
     cors       = require('cors'),
     path       = require('path'),
     routes     = require('./routes'),
-    port       = process.env.PORT || 3000;
+    port       = process.env.PORT || 80;
 
 var app = express();
 
