@@ -4,11 +4,11 @@
   angular.module('personalApp', ['navControllers', 'homeControllers', 'aboutControllers', 'projectsControllers', 'technicalSkillsControllers', 'softSkillsControllers', 'historyControllers', 'educationControllers', 'achievementsControllers', 'ngAnimate', 'ngSanitize', 'ui.router'])
     .config(routerConfig);
 
-  routerConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+  routerConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
-  function routerConfig($stateProvider, $urlRouterProvider) {
+  function routerConfig($stateProvider, $urlRouterProvider, $locationProvider) {
 
-    // $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
 
     $stateProvider
       .state('home',{
