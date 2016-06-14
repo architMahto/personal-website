@@ -9,6 +9,16 @@
 
     historyCtrl.employmentHistory = [
       {
+        title        : "Teaching Assistant",
+        organization : "Artiv Controls Ltd.",
+        timeframe    : "May 2016 - present",
+        description  : [
+          "<span>Helped students<span> gain a better understanding of web development principles.",
+          "<span>Ensured students completed their final projects</span> in time for demo day.",
+          "<span>Currently helping students</span> of the current cohort with their midterm projects."
+        ]
+      },
+      {
         title        : "Sales Assistant",
         organization : "Artiv Controls Ltd.",
         timeframe    : "May 2010 - August 2010",
