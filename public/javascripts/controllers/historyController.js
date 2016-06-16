@@ -13,7 +13,7 @@
         organization : "Artiv Controls Ltd.",
         timeframe    : "May 2016 - present",
         description  : [
-          "<span>Assist students<span> gain a better understanding of web development principles.",
+          "<span>Assist students</span> gain a better understanding of web development principles.",
           "<span>Ensure students maintain their timeline for midterm and final projects</span> in time for delivery.",
           "<span>Continue to expand</span> my web development and computer science knowledge."
         ]
