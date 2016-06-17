@@ -10,7 +10,7 @@
     historyCtrl.employmentHistory = [
       {
         title        : "Teaching Assistant",
-        organization : "Artiv Controls Ltd.",
+        organization : "RefactorU",
         timeframe    : "May 2016 - present",
         description  : [
           "<span>Assist students</span> gain a better understanding of web development principles.",
