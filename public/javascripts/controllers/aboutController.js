@@ -26,7 +26,7 @@
                           {
                             header: "I'm also a Toastmaster",
                             paragraphs: [
-                              "At the start of 2011, I joined Carleton Toastmasters as I felt that my communication skills were not up to the mark. I was very shy and tentative at that time, which made me hesitant about preparing and performing speeches. <span>Once my first speech was delivered, I never looked back with regards to my communication skills.</span>",
+                              "At the start of 2011, I joined Carleton Toastmasters as I felt that my communication skills were not up to the mark. I was shy and tentative at that time, which made me hesitant about preparing and performing speeches. <span>Once my first speech was delivered, I never looked back with regards to my communication skills.</span>",
                               "A year later, I achieved my first distinction at Carleton Toastmasters as a Competent Communicator. A year after that, I got my Advanced Bronze Communicator distinction after delivering ten speeches on Interpersonal Communication and Humorous Speeches (a little similar to standup comedy)."]
                           },
                           {
