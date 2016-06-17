@@ -10,7 +10,7 @@
     aboutCtrl.content = [
                           {
                             header: "Who Am I?",
-                            paragraphs: ["I'm a teaching assistant at RefactorU currently looking for a full-time developmer position."]
+                            paragraphs: ["I'm a teaching assistant at RefactorU currently looking for a full-time developer position."]
                           },
                           {
                             header: "What inspired me to write code and go into CS?",
