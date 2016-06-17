@@ -31,7 +31,7 @@
       },
       {
         title        : "Technical Support",
-        organization : "Tempotech Controls Ltd.",
+        organization : "Tempotech Controls Inc.",
         timeframe    : "July 2008 - August 2008",
         description  : [
           "<span>Programmed temperature transmitters and indicators</span> which involved specifying inputs, setting relays and alarms.",
