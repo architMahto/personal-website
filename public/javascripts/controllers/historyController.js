@@ -11,7 +11,7 @@
       {
         title        : "Teaching Assistant",
         organization : "RefactorU",
-        timeframe    : "May 2016 - present",
+        timeframe    : "May 2016 - July 2016",
         description  : [
           "<span>Assist students</span> gain a better understanding of web development principles.",
           "<span>Ensure students maintain their timeline for midterm and final projects</span> in time for delivery.",
